@@ -1,0 +1,44 @@
+body{
+    background-image: linear-gradient(to right, #160d49, #516e94);;
+}
+.main{
+    width: 500px;
+    margin-top: 7vh;
+    padding: 0px;
+}
+.form-floating{
+    margin: 2vw;
+}
+form{
+    background-color: rgb(202, 202, 202);
+    padding: 1vw;
+}
+#login-head{
+    background-color: white;
+    color: gray;
+    height: 6vw;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.btn-login{
+    background-color: aqua;
+    border: 1px solid rgb(1, 211, 211);
+    color: black;
+}
+
+#rrss{
+    margin: auto;
+}
+
+#log-title{
+    color: white;
+    text-align: center;
+}
+p{
+    margin-bottom: 0px;
+}
+.bi{
+    margin: 3px;
+}

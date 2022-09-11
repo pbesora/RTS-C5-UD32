@@ -1,0 +1,30 @@
+body{
+    color: #00acee;
+    background-color: #243447;
+}
+
+
+.container{
+    margin-top: 5vh;
+    max-width: 500px;
+}
+.row{
+    margin: 10px;
+}
+.bi{
+    font-size: xx-large;
+}
+.form-control {
+    background-color: #243447!important;
+    border: 1px solid #141d26!important;
+    color: #ffffff!important;
+}
+button{
+    background-color: #00acee!important;
+    --bs-btn-focus-shadow-rgb: none!important;
+    border: 0px;
+}
+button:hover{
+    background-color: #018fc7!important;
+
+}

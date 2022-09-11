@@ -1,0 +1,58 @@
+#logo {
+    font-size: xx-large;
+}
+
+a:hover {
+    background-color: white;
+    color: #343a40 !important;
+}
+
+a {
+    border-radius: 3px;
+}
+
+.articulos{
+    margin: auto;
+    margin-top: 30px;
+}
+
+.articulo {
+    font-size: small;
+    margin: 10px;
+    text-align: justify;
+}
+
+.articulo button {
+    border: 1px solid#343a40;
+    width: 90px;
+}
+
+.articulo h2 {
+    font-size: large;
+}
+
+img {
+    
+}
+
+
+@media screen and (max-width: 992px) {
+    .module {
+        width: 300px;
+        margin: 0 0 1 0;
+        overflow: hidden;
+    }
+
+    img{
+        width: 300px;
+    }
+    .module p {
+        margin: 0;
+    }
+
+    .line-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+}

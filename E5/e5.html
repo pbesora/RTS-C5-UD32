@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="e5.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <title>Usuarios</title>
+</head>
+
+<body class="container">
+    <h1 class="text-primary">Listado de Usuarios del Sistema</h1>
+    <div id="toptable" class="row">
+        <div class="col d-flex">
+            Mostrar <select class="form-select" aria-label="Default select example">
+                <option selected>5</option>
+                <option value="1">5</option>
+                <option value="2">10</option>
+                <option value="3">15</option>
+              </select>
+              registros
+        </div>
+        <div class="col text-end">
+            <input type="search" class="form-control text-bg-light" placeholder="Search here...">
+        </div>
+        
+    </div>
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Usuario</th>
+                <th scope="col">Sector</th>
+                <th scope="col">Ultimo Ingreso</th>
+                <th scope="col">Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>admin</td>
+                <td>Administración</td>
+                <td>2018-01-17 12:49:56</td>
+                <td>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
+                    <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>marcelo</td>
+                <td>Administración</td>
+                <td>2018-02-24 12:49:56</td>
+                <td>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
+                    <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>eduardo</td>
+                <td>Producció</td>
+                <td>2018-03-17 12:29:56</td>
+                <td>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
+                    <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>jorge</td>
+                <td>Administración</td>
+                <td>2015-03-17 12:29:56</td>
+                <td>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-eye"></i></button>
+                    <button type="button" class="btn btn-success"><i class="bi bi-pencil-square"></i></button>
+                    <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="d-flex">
+        <nav class="col" aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Anterior</a>
+              </li>
+              <li class="page-item active">
+                <a class="page-link" href="#">1<span class="sr-only"></span></a>
+              </li>
+              <li class="page-item disabled">
+                <a class="page-link" href="#">Siguiente</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="col text-end"><button type="button" class="btn btn-primary">Agregar Usuario</button></div>
+          
+    </div>
+    
+</body>
+
+</html>

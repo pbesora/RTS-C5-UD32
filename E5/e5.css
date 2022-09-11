@@ -1,0 +1,12 @@
+select{
+    width: 70px!important;
+    height: 35px;
+    margin: 5px;
+    margin-top: 0px;
+}
+#reg-num{
+    font-size: large!important;
+}
+#toptable{
+    margin: 5px;
+}
